@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
@@ -26,9 +26,6 @@
     "form-data": "^4.0.0",
     "geoip-country": "^4.2.130",
     "firebase-admin": "^12.6.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.4"
   },
   "repository": {
     "type": "git",
